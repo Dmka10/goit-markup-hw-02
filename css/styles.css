@@ -1,24 +1,29 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #2e2f42;
     background-color: #fff;
 }
 a {
     text-decoration-line: none;
     font-style: normal;
+    color: #434455;
 }
-ul {
+ul, ol {
     list-style-type: none;
 }
-.header-line {
-    background: #fff;
+button {
+    cursor: pointer;
 }
+img {
+    display: block;
+}
+/*============ Page navigation ============*/
 .logo-title {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -27,45 +32,85 @@ ul {
     color: #2e2f42;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.nav-title {
-    font-family: "Roboto", sans-serif;
+.nav-menu {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.adress-title {
-    font-family: "Roboto", sans-serif;
+.nav-menu-item :hover ,
+.nav-menu-item :focus {
+    color:#404bbf;
+}
+/*============ /Page navigation ============*/
+
+/*============ Adress contacts ============*/
+
+.adress-menu {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.adress-info :hover,
+.adress-info :focus {
+    color: #404bbf;
+}
+
+/*============ /Adress contacs ============*/
+
+/*============ Page section hero ============*/
 .section-hero-line {
     background: #2e2f42;
 }
 .title-section-hero {
-    font-family: "Roboto", sans-serif;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
     font-weight: 700;
 }
 .hero-button {
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     font-weight: 500;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
+/*============ /Page section hero ============*/
+
+/*============ Page section our benefits ============*/
+.title-hiden {
+    visibility: hidden;
+}
+    
+.section-benefits {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.11;
+}
+.title-benefits {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+.text-benefits {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+}
+
+/*============ /Page section our benefits ============*/
