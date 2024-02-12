@@ -94,8 +94,8 @@ img {
     font-weight: 500;
     background: #4d5ae5;
 }
-.hero-button :hover,
-.hero-button :focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color:#404bbf;
 }
 /*============ /Page section hero ============*/
