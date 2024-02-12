@@ -14,9 +14,6 @@ ul, ol {
 button {
     cursor: pointer;
 }
-img {
-    display: block;
-}
 /*============ Page navigation ============*/
 .logo-title {
     font-family: "Raleway", sans-serif;
@@ -25,7 +22,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color:#2e2f42;
 }
 .logo-text {
     font-family: "Raleway", sans-serif;
@@ -34,22 +31,16 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-.logo-text-hd {
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
-        font-weight: 700;
+    color:#4d5ae5;
 }
 .nav-menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-menu-item {
     color: #2e2f42;
 }
 .nav-menu-item :hover ,
@@ -158,6 +149,12 @@ img {
 /*============ /Page section our team ============*/
 
 /*============ Page section our portfolio ============*/
+.portfolio-content {
+    background-color: #F4F4FD;
+}
+.portfolio-bg {
+    background-color: #FFFFFF;
+}
 .title-portfolio {
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -190,16 +187,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     line-height: 1.5;
-}
-.logo-title-ft {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-
 }
 .logo-text-ft {
     font-family: "Raleway", sans-serif;
