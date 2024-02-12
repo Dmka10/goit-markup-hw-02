@@ -132,6 +132,12 @@ button {
     line-height: 1.11;
     color: #2e2f42;
 }
+.our-team-bg {
+    background-color: #F4F4FD;
+}
+.text-our-team {
+    background-color: #FFFFFF;
+}
 .team-names {
     font-weight: 500;
     line-height: 1.2;
